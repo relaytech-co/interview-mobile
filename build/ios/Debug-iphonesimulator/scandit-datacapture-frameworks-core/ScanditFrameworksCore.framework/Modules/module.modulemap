@@ -1,0 +1,11 @@
+framework module ScanditFrameworksCore {
+  umbrella header "scandit-datacapture-frameworks-core-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ScanditFrameworksCore.Swift {
+  header "ScanditFrameworksCore-Swift.h"
+  requires objc
+}

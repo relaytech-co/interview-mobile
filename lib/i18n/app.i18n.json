@@ -1,0 +1,29 @@
+{
+  "inventory": "Inventory",
+  "checkin": "Check-in",
+  "checkout": "Check-out",
+  "back": "Back",
+  "logout": "Logout",
+  "parcels": "Parcels",
+  "fullBags": "Full Bags",
+  "emptyBags": "Empty Bags",
+  "bag": "Bag",
+  "parcel": "Parcel", 
+  "inventoryFetchError": "There was an error fetching the inventory",
+  "retry": "Retry",
+  "inventoryEmptyState": "No Inventory Available",
+  "checkedIn": "Checked In",
+  "checkedOut": "Checked Out",
+  "courierDropOff": "Courier drop-off",
+  "customerDropOff": "Customer drop-off",
+  "allow": "Allow",
+  "maybeLater": "Maybe later",
+  "courierDropOffScanInfo": "Scan the courier ID",
+  "cantScanCode": "Can't scan code?",
+  "courierDropOffDetailsTitle":{
+    "one": "$courierName is here to drop off $n parcel",
+    "other": "$courierName is here to drop off $n parcels"
+  },
+  "courierDropOffDetailsSubtitle": "Ask $courierName to scan the items to complete check-in",
+  "newStarter": "New Starter"
+}

@@ -1,0 +1,11 @@
+framework module scandit_flutter_datacapture_barcode {
+  umbrella header "scandit_flutter_datacapture_barcode-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module scandit_flutter_datacapture_barcode.Swift {
+  header "scandit_flutter_datacapture_barcode-Swift.h"
+  requires objc
+}

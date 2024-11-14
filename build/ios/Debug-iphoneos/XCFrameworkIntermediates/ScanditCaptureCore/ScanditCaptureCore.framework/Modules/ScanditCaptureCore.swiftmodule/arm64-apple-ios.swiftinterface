@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ScanditCaptureCore
+import DeveloperToolsSupport
+import Foundation
+@_exported import ScanditCaptureCore
+import Swift
+import SwiftUI
+import UIKit
+extension ScanditCaptureCore.WaveFormVibration {
+  public var timings: [Foundation.TimeInterval] {
+    get
+  }
+  public var amplitudes: [Swift.Float]? {
+    get
+  }
+  convenience public init(timings: [Foundation.TimeInterval])
+  convenience public init(timings: [Foundation.TimeInterval], amplitudes: [Swift.Float]?)
+}

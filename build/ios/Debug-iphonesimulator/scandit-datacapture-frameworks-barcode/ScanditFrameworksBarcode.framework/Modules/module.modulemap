@@ -1,0 +1,11 @@
+framework module ScanditFrameworksBarcode {
+  umbrella header "scandit-datacapture-frameworks-barcode-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ScanditFrameworksBarcode.Swift {
+  header "ScanditFrameworksBarcode-Swift.h"
+  requires objc
+}

@@ -1,0 +1,1 @@
+ /Users/mariavictoriamartinez/Documents/SmartUp/relay_interview/.dart_tool/flutter_build/8c08fc2abb0b4e7fe6ed4309d3a5a5fc/native_assets.yaml: 

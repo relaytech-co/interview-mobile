@@ -1,0 +1,3364 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ScanditBarcodeCapture",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScanditBarcodeCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ScanditBarcodeCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScanditBarcodeCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ScanditBarcodeCapture"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ScanditBarcodeCapture"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeCaptureLicenseInfo",
+        "printedName": "BarcodeCaptureLicenseInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "licensedSymbologies",
+            "printedName": "licensedSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So28SDCBarcodeCaptureLicenseInfoC014ScanditBarcodeB0E19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo28SDCBarcodeCaptureLicenseInfoC014ScanditBarcodeB0E19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So28SDCBarcodeCaptureLicenseInfoC014ScanditBarcodeB0E19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo28SDCBarcodeCaptureLicenseInfoC014ScanditBarcodeB0E19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeCaptureLicenseInfo",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeCaptureLicenseInfo",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeCaptureSettings",
+        "printedName": "BarcodeCaptureSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So25SDCBarcodeCaptureSettingsC014ScanditBarcodeB0E18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo25SDCBarcodeCaptureSettingsC014ScanditBarcodeB0E18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So25SDCBarcodeCaptureSettingsC014ScanditBarcodeB0E18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo25SDCBarcodeCaptureSettingsC014ScanditBarcodeB0E18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So25SDCBarcodeCaptureSettingsC014ScanditBarcodeB0E17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo25SDCBarcodeCaptureSettingsC014ScanditBarcodeB0E17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeCaptureSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeCaptureSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeCountSession",
+        "printedName": "BarcodeCountSession",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "recognizedBarcodes",
+            "printedName": "recognizedBarcodes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int : ScanditBarcodeCapture.TrackedBarcode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackedBarcode",
+                    "printedName": "ScanditBarcodeCapture.TrackedBarcode",
+                    "usr": "c:objc(cs)SDCTrackedBarcode"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So22SDCBarcodeCountSessionC21ScanditBarcodeCaptureE18recognizedBarcodesSDySiSo010SDCTrackedE0CGvp",
+            "mangledName": "$sSo22SDCBarcodeCountSessionC21ScanditBarcodeCaptureE18recognizedBarcodesSDySiSo010SDCTrackedE0CGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int : ScanditBarcodeCapture.TrackedBarcode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackedBarcode",
+                        "printedName": "ScanditBarcodeCapture.TrackedBarcode",
+                        "usr": "c:objc(cs)SDCTrackedBarcode"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22SDCBarcodeCountSessionC21ScanditBarcodeCaptureE18recognizedBarcodesSDySiSo010SDCTrackedE0CGvg",
+                "mangledName": "$sSo22SDCBarcodeCountSessionC21ScanditBarcodeCaptureE18recognizedBarcodesSDySiSo010SDCTrackedE0CGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeCountSession",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeCountSession",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeCountSettings",
+        "printedName": "BarcodeCountSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So23SDCBarcodeCountSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo23SDCBarcodeCountSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So23SDCBarcodeCountSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo23SDCBarcodeCountSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So23SDCBarcodeCountSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo23SDCBarcodeCountSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeCountSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeCountSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeFilterSettings",
+        "printedName": "BarcodeFilterSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "excludedSymbolCounts",
+            "printedName": "excludedSymbolCounts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[ScanditBarcodeCapture.Symbology : Swift.Set<Swift.Int>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvp",
+            "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[ScanditBarcodeCapture.Symbology : Swift.Set<Swift.Int>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<Swift.Int>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvg",
+                "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[ScanditBarcodeCapture.Symbology : Swift.Set<Swift.Int>]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Set",
+                        "printedName": "Swift.Set<Swift.Int>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sh"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvs",
+                "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvs",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvM",
+                "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE20excludedSymbolCountsSDySo12SDCSymbologyVShySiGGvM",
+                "moduleName": "ScanditBarcodeCapture",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "excludedSymbologies",
+            "printedName": "excludedSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvs",
+                "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvs",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvM",
+                "mangledName": "$sSo24SDCBarcodeFilterSettingsC21ScanditBarcodeCaptureE19excludedSymbologiesShySo12SDCSymbologyVGvM",
+                "moduleName": "ScanditBarcodeCapture",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeFilterSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeFilterSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeFindSettings",
+        "printedName": "BarcodeFindSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So22SDCBarcodeFindSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo22SDCBarcodeFindSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22SDCBarcodeFindSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo22SDCBarcodeFindSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22SDCBarcodeFindSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo22SDCBarcodeFindSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeFindSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeFindSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodePickSettings",
+        "printedName": "BarcodePickSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So22SDCBarcodePickSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo22SDCBarcodePickSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So22SDCBarcodePickSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo22SDCBarcodePickSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So22SDCBarcodePickSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo22SDCBarcodePickSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodePickSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodePickSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeSelectionLicenseInfo",
+        "printedName": "BarcodeSelectionLicenseInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "licensedSymbologies",
+            "printedName": "licensedSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So30SDCBarcodeSelectionLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo30SDCBarcodeSelectionLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So30SDCBarcodeSelectionLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo30SDCBarcodeSelectionLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeSelectionLicenseInfo",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeSelectionLicenseInfo",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeSelectionSettings",
+        "printedName": "BarcodeSelectionSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So27SDCBarcodeSelectionSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo27SDCBarcodeSelectionSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So27SDCBarcodeSelectionSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo27SDCBarcodeSelectionSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So27SDCBarcodeSelectionSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo27SDCBarcodeSelectionSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeSelectionSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeSelectionSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeTrackingLicenseInfo",
+        "printedName": "BarcodeTrackingLicenseInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "licensedSymbologies",
+            "printedName": "licensedSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So29SDCBarcodeTrackingLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo29SDCBarcodeTrackingLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So29SDCBarcodeTrackingLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo29SDCBarcodeTrackingLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeTrackingLicenseInfo",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeTrackingLicenseInfo",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeTrackingSession",
+        "printedName": "BarcodeTrackingSession",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "removedTrackedBarcodes",
+            "printedName": "removedTrackedBarcodes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE22removedTrackedBarcodesSaySiGvp",
+            "mangledName": "$sSo25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE22removedTrackedBarcodesSaySiGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE22removedTrackedBarcodesSaySiGvg",
+                "mangledName": "$sSo25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE22removedTrackedBarcodesSaySiGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trackedBarcodes",
+            "printedName": "trackedBarcodes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.Int : ScanditBarcodeCapture.TrackedBarcode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TrackedBarcode",
+                    "printedName": "ScanditBarcodeCapture.TrackedBarcode",
+                    "usr": "c:objc(cs)SDCTrackedBarcode"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE15trackedBarcodesSDySiSo010SDCTrackedE0CGvp",
+            "mangledName": "$sSo25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE15trackedBarcodesSDySiSo010SDCTrackedE0CGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.Int : ScanditBarcodeCapture.TrackedBarcode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TrackedBarcode",
+                        "printedName": "ScanditBarcodeCapture.TrackedBarcode",
+                        "usr": "c:objc(cs)SDCTrackedBarcode"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE15trackedBarcodesSDySiSo010SDCTrackedE0CGvg",
+                "mangledName": "$sSo25SDCBarcodeTrackingSessionC21ScanditBarcodeCaptureE15trackedBarcodesSDySiSo010SDCTrackedE0CGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeTrackingSession",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeTrackingSession",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BarcodeTrackingSettings",
+        "printedName": "BarcodeTrackingSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So26SDCBarcodeTrackingSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo26SDCBarcodeTrackingSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So26SDCBarcodeTrackingSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo26SDCBarcodeTrackingSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So26SDCBarcodeTrackingSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo26SDCBarcodeTrackingSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCBarcodeTrackingSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCBarcodeTrackingSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CompositeTypeDescription",
+        "printedName": "CompositeTypeDescription",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "symbologies",
+            "printedName": "symbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So27SDCCompositeTypeDescriptionC21ScanditBarcodeCaptureE11symbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo27SDCCompositeTypeDescriptionC21ScanditBarcodeCaptureE11symbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So27SDCCompositeTypeDescriptionC21ScanditBarcodeCaptureE11symbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo27SDCCompositeTypeDescriptionC21ScanditBarcodeCaptureE11symbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCCompositeTypeDescription",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCCompositeTypeDescription",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SparkScanLicenseInfo",
+        "printedName": "SparkScanLicenseInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "licensedSymbologies",
+            "printedName": "licensedSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So23SDCSparkScanLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo23SDCSparkScanLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So23SDCSparkScanLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo23SDCSparkScanLicenseInfoC21ScanditBarcodeCaptureE19licensedSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCSparkScanLicenseInfo",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCSparkScanLicenseInfo",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SparkScanSettings",
+        "printedName": "SparkScanSettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enabledSymbologies",
+            "printedName": "enabledSymbologies",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20SDCSparkScanSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "mangledName": "$sSo20SDCSparkScanSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20SDCSparkScanSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "mangledName": "$sSo20SDCSparkScanSettingsC21ScanditBarcodeCaptureE18enabledSymbologiesShySo12SDCSymbologyVGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "enableSymbologies",
+            "printedName": "enableSymbologies(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<ScanditBarcodeCapture.Symbology>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So20SDCSparkScanSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "mangledName": "$sSo20SDCSparkScanSettingsC21ScanditBarcodeCaptureE17enableSymbologiesyyShySo12SDCSymbologyVGF",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCSparkScanSettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCSparkScanSettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Symbology",
+        "printedName": "Symbology",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[ScanditBarcodeCapture.Symbology]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Symbology",
+                    "printedName": "ScanditBarcodeCapture.Symbology",
+                    "usr": "c:@E@SDCSymbology"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So12SDCSymbologyV21ScanditBarcodeCaptureE8allCasesSayABGvpZ",
+            "mangledName": "$sSo12SDCSymbologyV21ScanditBarcodeCaptureE8allCasesSayABGvpZ",
+            "moduleName": "ScanditBarcodeCapture",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditBarcodeCapture.Symbology]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So12SDCSymbologyV21ScanditBarcodeCaptureE8allCasesSayABGvgZ",
+                "mangledName": "$sSo12SDCSymbologyV21ScanditBarcodeCaptureE8allCasesSayABGvgZ",
+                "moduleName": "ScanditBarcodeCapture",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@E@SDCSymbology",
+        "moduleName": "ScanditBarcodeCapture",
+        "objc_name": "SDCSymbology",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Frozen",
+          "SynthesizedProtocol",
+          "Sendable",
+          "Dynamic"
+        ],
+        "enumRawTypeName": "UInt",
+        "isExternal": true,
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[ScanditBarcodeCapture.Symbology]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Symbology",
+                        "printedName": "ScanditBarcodeCapture.Symbology",
+                        "usr": "c:@E@SDCSymbology"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SymbologySettings",
+        "printedName": "SymbologySettings",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "activeSymbolCounts",
+            "printedName": "activeSymbolCounts",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.Int>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvp",
+            "mangledName": "$sSo20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvp",
+            "moduleName": "ScanditBarcodeCapture",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvg",
+                "mangledName": "$sSo20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvg",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.Int>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvs",
+                "mangledName": "$sSo20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvs",
+                "moduleName": "ScanditBarcodeCapture",
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvM",
+                "mangledName": "$sSo20SDCSymbologySettingsC21ScanditBarcodeCaptureE18activeSymbolCountsShySiGvM",
+                "moduleName": "ScanditBarcodeCapture",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCSymbologySettings",
+        "moduleName": "ScanditBarcodeCapture",
+        "isOpen": true,
+        "objc_name": "SDCSymbologySettings",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "withSparkScan",
+            "printedName": "withSparkScan(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP21ScanditBarcodeCaptureE13withSparkScanyQrSo16UIViewControllerCF",
+            "mangledName": "$s7SwiftUI4ViewP21ScanditBarcodeCaptureE13withSparkScanyQrSo16UIViewControllerCF",
+            "moduleName": "ScanditBarcodeCapture",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUI",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "TypeEraser",
+          "Available",
+          "Available",
+          "Available",
+          "Available"
+        ],
+        "isExternal": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/native\/libs\/sdc\/barcode\/ios\/src\/SparkScanSwiftUI.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 30,
+      "value": "\"ScanditBarcodeCapture.SparkScanHostingViewController\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/native\/libs\/sdc\/barcode\/ios\/src\/SparkScanSwiftUI.swift",
+      "kind": "StringLiteral",
+      "offset": 3516,
+      "length": 15,
+      "value": "\"ScanditBarcodeCapture.PassthroughView\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 732,
+      "length": 12,
+      "value": "\"arrow-down\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 27,
+      "value": "\"barcode-find-default-item\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1081,
+      "length": 25,
+      "value": "\"barcode-find-item-found\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 36,
+      "value": "\"barcode-find-zoom-control-gradient\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1456,
+      "length": 18,
+      "value": "\"exit-button-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1616,
+      "length": 19,
+      "value": "\"exit-button-solid\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1787,
+      "length": 24,
+      "value": "\"expired-item-highlight\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1963,
+      "length": 24,
+      "value": "\"fragile-item-highlight\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2123,
+      "length": 16,
+      "value": "\"icon-audio-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2273,
+      "length": 15,
+      "value": "\"icon-audio-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2425,
+      "length": 16,
+      "value": "\"icon-autostart\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2582,
+      "length": 18,
+      "value": "\"icon-clearscreen\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2735,
+      "length": 15,
+      "value": "\"icon-collapse\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2881,
+      "length": 13,
+      "value": "\"icon-expand\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3030,
+      "length": 16,
+      "value": "\"icon-fast-find\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3182,
+      "length": 16,
+      "value": "\"icon-flash-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3332,
+      "length": 15,
+      "value": "\"icon-flash-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3483,
+      "length": 16,
+      "value": "\"icon-hand-mode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3630,
+      "length": 13,
+      "value": "\"icon-handle\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3781,
+      "length": 17,
+      "value": "\"icon-haptic-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3934,
+      "length": 16,
+      "value": "\"icon-haptic-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4100,
+      "length": 23,
+      "value": "\"icon-matrixscan-count\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4275,
+      "length": 24,
+      "value": "\"icon-sparkscan-barcode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4472,
+      "length": 35,
+      "value": "\"icon-sparkscan-barcode-background\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4647,
+      "length": 18,
+      "value": "\"icon-target-mode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4798,
+      "length": 14,
+      "value": "\"icon-warning\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 4944,
+      "length": 14,
+      "value": "\"icon-zoom-1x\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5090,
+      "length": 14,
+      "value": "\"icon-zoom-2x\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5244,
+      "length": 18,
+      "value": "\"list-button-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5408,
+      "length": 21,
+      "value": "\"low-stock-highlight\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5571,
+      "length": 19,
+      "value": "\"ms-pick-checkmark\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5722,
+      "length": 14,
+      "value": "\"ms-pick-plus\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5873,
+      "length": 17,
+      "value": "\"ms-pick-to-pick\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6034,
+      "length": 20,
+      "value": "\"mscount-dot-accept\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6198,
+      "length": 20,
+      "value": "\"mscount-dot-reject\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6370,
+      "length": 24,
+      "value": "\"mscount-popover-accept\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6567,
+      "length": 35,
+      "value": "\"mscount-popover-accept-accessible\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6771,
+      "length": 33,
+      "value": "\"mscount-popover-accept-disabled\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 6954,
+      "length": 23,
+      "value": "\"mscount-popover-close\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7129,
+      "length": 24,
+      "value": "\"mscount-popover-reject\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7322,
+      "length": 33,
+      "value": "\"mscount-popover-reject-disabled\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7509,
+      "length": 25,
+      "value": "\"not-available-highlight\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7667,
+      "length": 14,
+      "value": "\"pause-button\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7835,
+      "length": 25,
+      "value": "\"quality-check-highlight\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 7999,
+      "length": 17,
+      "value": "\"scanned_barcode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8176,
+      "length": 28,
+      "value": "\"scanned_barcode_accessible\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8341,
+      "length": 16,
+      "value": "\"shutter-button\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8488,
+      "length": 13,
+      "value": "\"single-scan\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8634,
+      "length": 14,
+      "value": "\"start-button\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8815,
+      "length": 32,
+      "value": "\"status-mode-button-deactivated\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8998,
+      "length": 24,
+      "value": "\"status-mode-button-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9171,
+      "length": 23,
+      "value": "\"status-mode-button-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9340,
+      "length": 21,
+      "value": "\"status-mode-loading\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9503,
+      "length": 19,
+      "value": "\"toolbar-audio-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9662,
+      "length": 18,
+      "value": "\"toolbar-audio-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9815,
+      "length": 15,
+      "value": "\"toolbar-close\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 9978,
+      "length": 22,
+      "value": "\"toolbar-color-scheme\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10144,
+      "length": 20,
+      "value": "\"toolbar-haptic-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10306,
+      "length": 19,
+      "value": "\"toolbar-haptic-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10458,
+      "length": 14,
+      "value": "\"toolbar-open\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10616,
+      "length": 20,
+      "value": "\"toolbar-strap-mode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10779,
+      "length": 19,
+      "value": "\"unscanned_barcode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 10962,
+      "length": 30,
+      "value": "\"unscanned_barcode_accessible\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11130,
+      "length": 17,
+      "value": "\"user-facing-cam\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11287,
+      "length": 18,
+      "value": "\"world-facing-cam\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11453,
+      "length": 22,
+      "value": "\"wrong-item-highlight\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11610,
+      "length": 15,
+      "value": "\"wrong_barcode\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-barcode.build\/Release-iphonesimulator\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 11781,
+      "length": 26,
+      "value": "\"wrong_barcode_accessible\""
+    }
+  ]
+}

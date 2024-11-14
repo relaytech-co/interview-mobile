@@ -1,0 +1,11 @@
+Reading data file ./coverage/lcov.info
+Resolved relative source file path "lib/src/user_repository.dart" with CWD to "/Users/mariavictoriamartinez/Documents/SmartUp/Projects/V1-pro-mobile/packages/user_repository/lib/src/user_repository.dart".
+Found 1 entries.
+Found common filename prefix "/Users/mariavictoriamartinez/Documents/SmartUp/Projects/V1-pro-mobile/packages/user_repository/lib"
+Writing .css and .png files.
+Generating output.
+Processing file src/user_repository.dart
+Writing directory view page.
+Overall coverage rate:
+  lines......: 100.0% (79 of 79 lines)
+  functions..: no data found

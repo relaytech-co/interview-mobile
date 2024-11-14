@@ -1,0 +1,4 @@
+{
+  "ENVIRONMENT": "production",
+  "API_BASE_URL": "https://relay-production.relaytechapis.co"
+}

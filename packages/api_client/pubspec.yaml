@@ -1,0 +1,35 @@
+name: api_client
+description: A Dart Client for the HTTP API
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  compute: ^1.0.0
+  dio: 5.4.1
+  equatable: ^2.0.3
+  file: ^6.1.2
+  # firebase_crashlytics: 3.4.20
+  # firebase_performance: 0.9.3
+  japx: ^2.0.4
+  json_annotation: ^4.4.0
+  mime: ^1.0.1
+  models:
+    path: ../models
+  package_info_plus: 4.2.0
+  retrofit: 4.1.0
+  utils:
+    path: ../utils
+  storage_client:
+    path: ../storage_client/storage_client
+  user_tracing: 
+    path: ../user_tracing
+
+dev_dependencies:
+  build_runner: ^2.1.7
+  json_serializable: ^6.1.4
+  retrofit_generator: 8.1.0
+  very_good_analysis: ^3.0.2
+

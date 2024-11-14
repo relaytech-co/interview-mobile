@@ -1,0 +1,453 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ScanditCaptureCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ScanditCaptureCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ScanditCaptureCore"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "ScanditCaptureCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WaveFormVibration",
+        "printedName": "WaveFormVibration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "timings",
+            "printedName": "timings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20SDCWaveFormVibrationC18ScanditCaptureCoreE7timingsSaySdGvp",
+            "mangledName": "$sSo20SDCWaveFormVibrationC18ScanditCaptureCoreE7timingsSaySdGvp",
+            "moduleName": "ScanditCaptureCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20SDCWaveFormVibrationC18ScanditCaptureCoreE7timingsSaySdGvg",
+                "mangledName": "$sSo20SDCWaveFormVibrationC18ScanditCaptureCoreE7timingsSaySdGvg",
+                "moduleName": "ScanditCaptureCore",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "amplitudes",
+            "printedName": "amplitudes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Float]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So20SDCWaveFormVibrationC18ScanditCaptureCoreE10amplitudesSaySfGSgvp",
+            "mangledName": "$sSo20SDCWaveFormVibrationC18ScanditCaptureCoreE10amplitudesSaySfGSgvp",
+            "moduleName": "ScanditCaptureCore",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.Float]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Float]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So20SDCWaveFormVibrationC18ScanditCaptureCoreE10amplitudesSaySfGSgvg",
+                "mangledName": "$sSo20SDCWaveFormVibrationC18ScanditCaptureCoreE10amplitudesSaySfGSgvg",
+                "moduleName": "ScanditCaptureCore",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timings:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WaveFormVibration",
+                "printedName": "ScanditCaptureCore.WaveFormVibration",
+                "usr": "c:objc(cs)SDCWaveFormVibration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So20SDCWaveFormVibrationC18ScanditCaptureCoreE7timingsABSaySdG_tcfc",
+            "mangledName": "$sSo20SDCWaveFormVibrationC18ScanditCaptureCoreE7timingsABSaySdG_tcfc",
+            "moduleName": "ScanditCaptureCore",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(timings:amplitudes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WaveFormVibration",
+                "printedName": "ScanditCaptureCore.WaveFormVibration",
+                "usr": "c:objc(cs)SDCWaveFormVibration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.Float]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Float]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Float",
+                        "printedName": "Swift.Float",
+                        "usr": "s:Sf"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:So20SDCWaveFormVibrationC18ScanditCaptureCoreE7timings10amplitudesABSaySdG_SaySfGSgtcfc",
+            "mangledName": "$sSo20SDCWaveFormVibrationC18ScanditCaptureCoreE7timings10amplitudesABSaySdG_SaySfGSgtcfc",
+            "moduleName": "ScanditCaptureCore",
+            "declAttributes": [
+              "Convenience"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)SDCWaveFormVibration",
+        "moduleName": "ScanditCaptureCore",
+        "isOpen": true,
+        "objc_name": "SDCWaveFormVibration",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)SDCVibration",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ScanditCaptureCore.Vibration",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 16,
+      "value": "\"camera-primary\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 908,
+      "length": 24,
+      "value": "\"camera-primary-pressed\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 18,
+      "value": "\"camera-secondary\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1247,
+      "length": 26,
+      "value": "\"camera-secondary-pressed\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 16,
+      "value": "\"icon-attention\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1555,
+      "length": 12,
+      "value": "\"icon-check\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1703,
+      "length": 16,
+      "value": "\"icon-zoomed-in\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1870,
+      "length": 24,
+      "value": "\"icon-zoomed-in-pressed\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2032,
+      "length": 17,
+      "value": "\"icon-zoomed-out\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2202,
+      "length": 25,
+      "value": "\"icon-zoomed-out-pressed\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2365,
+      "length": 17,
+      "value": "\"macro-mode-auto\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 16,
+      "value": "\"macro-mode-off\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2668,
+      "length": 15,
+      "value": "\"macro-mode-on\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2819,
+      "length": 16,
+      "value": "\"torch-off-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2986,
+      "length": 24,
+      "value": "\"torch-off-pressed-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3144,
+      "length": 15,
+      "value": "\"torch-on-icon\""
+    },
+    {
+      "filePath": "\/Volumes\/EngData\/builds\/data-capture-sdk\/build\/_build\/ios\/build\/sdc-core.build\/Release-iphoneos\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 3308,
+      "length": 23,
+      "value": "\"torch-on-pressed-icon\""
+    }
+  ]
+}

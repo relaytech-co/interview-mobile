@@ -1,0 +1,11 @@
+framework module scandit_flutter_datacapture_core {
+  umbrella header "scandit_flutter_datacapture_core-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module scandit_flutter_datacapture_core.Swift {
+  header "scandit_flutter_datacapture_core-Swift.h"
+  requires objc
+}

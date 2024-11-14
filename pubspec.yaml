@@ -1,0 +1,73 @@
+name: relay_interview
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  analytics_client:
+    path: packages/analytics_client/analytics_client
+  app_config_repository:
+    path: packages/app_config_repository
+  auth_repository:
+    path: packages/auth_repository
+  authentication_client:
+    path: packages/authentication_client
+  connectivity_repository:
+    path: packages/connectivity_repository
+  firebase_analytics_client:
+    path: packages/analytics_client/firebase_analytics_client
+  database_client:
+    path: packages/database_client
+  app_ui:
+    path: packages/app_ui
+  models:
+    path: packages/models
+  utils:
+    path: packages/utils
+  user_tracing:
+    path: packages/user_tracing
+  api_client: 
+    path: packages/api_client
+
+  dio: 5.4.1
+  equatable: 2.0.5
+  go_router: 14.4.1
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+  intl: 0.19.0
+  inventory_repository:
+    path: packages/inventory_repository
+  in_app_update: 4.2.2
+  json_annotation: 4.8.1
+  path_provider: 2.1.2
+  permission_handler: 11.3.0
+  mocktail: 1.0.4
+  flutter_riverpod: 2.5.1
+  riverpod_annotation: ^2.3.5
+  scandit_flutter_datacapture_barcode: 6.28.1
+  scandit_flutter_datacapture_core: 6.28.1
+  secure_storage:
+    path: packages/storage_client/secure_storage
+  url_launcher: 6.3.0
+  toastification: ^2.0.0
+  slang: ^3.31.1
+  slang_flutter: ^3.31.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  riverpod_generator: 
+
+flutter:
+  uses-material-design: true
+

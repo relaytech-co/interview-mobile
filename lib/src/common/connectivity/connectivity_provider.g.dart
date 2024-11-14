@@ -1,0 +1,44 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'connectivity_provider.dart';
+
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+String _$connectivityRepositoryHash() =>
+    r'f4afa500ac4fffa16d658e3d4d7f0a2a5ffa434d';
+
+/// See also [connectivityRepository].
+@ProviderFor(connectivityRepository)
+final connectivityRepositoryProvider =
+    Provider<ConnectivityRepository>.internal(
+  connectivityRepository,
+  name: r'connectivityRepositoryProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$connectivityRepositoryHash,
+  dependencies: null,
+  allTransitiveDependencies: null,
+);
+
+typedef ConnectivityRepositoryRef = ProviderRef<ConnectivityRepository>;
+String _$connectivityNotifierHash() =>
+    r'45a5230bc38132424ae1c7ecba9c22720a5a5954';
+
+/// See also [ConnectivityNotifier].
+@ProviderFor(ConnectivityNotifier)
+final connectivityNotifierProvider =
+    NotifierProvider<ConnectivityNotifier, ConnectivityStatus>.internal(
+  ConnectivityNotifier.new,
+  name: r'connectivityNotifierProvider',
+  debugGetCreateSourceHash: const bool.fromEnvironment('dart.vm.product')
+      ? null
+      : _$connectivityNotifierHash,
+  dependencies: null,
+  allTransitiveDependencies: null,
+);
+
+typedef _$ConnectivityNotifier = Notifier<ConnectivityStatus>;
+// ignore_for_file: type=lint
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member

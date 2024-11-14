@@ -1,0 +1,32 @@
+Reading tracefile ./coverage/lcov.info.
+Found 11 entries.
+Found common filename prefix "/Users/mariavictoriamartinez/Documents/SmartUp/Projects/relay-pitstop-app/relay_interview/packages/models/lib"
+Generating output.
+Processing file lib/src/domain_models/user.dart
+  lines=16 hit=1
+Processing file lib/src/db_models/user_db_model.dart
+  lines=6 hit=0
+Processing file lib/src/db_models/item_db_model.dart
+  lines=11 hit=1
+Processing file lib/src/network_models/response/login_with_qr_response.dart
+  lines=4 hit=0
+Processing file lib/src/domain_models/auth_tokens.dart
+  lines=15 hit=15
+Processing file lib/src/domain_models/item_type.dart
+  lines=8 hit=8
+Processing file lib/src/domain_models/location_models.dart
+  lines=10 hit=0
+Processing file lib/src/domain_models/bag_status.dart
+  lines=7 hit=7
+Processing file lib/utils/parsing_utils.dart
+  lines=113 hit=6
+Processing file lib/src/domain_models/options.dart
+  lines=2 hit=0
+Processing file lib/src/domain_models/item.dart
+  lines=30 hit=30
+Overall coverage rate:
+  source files: 11
+  lines.......: 30.6% (68 of 222 lines)
+  functions...: no data found
+Message summary:
+  no messages were reported

@@ -1,0 +1,11 @@
+framework module ScanditCaptureCore {
+  umbrella header "ScanditCaptureCore.h"
+  export *
+
+  module * { export * }
+}
+
+module ScanditCaptureCore.Swift {
+  header "ScanditCaptureCore-Swift.h"
+  requires objc
+}

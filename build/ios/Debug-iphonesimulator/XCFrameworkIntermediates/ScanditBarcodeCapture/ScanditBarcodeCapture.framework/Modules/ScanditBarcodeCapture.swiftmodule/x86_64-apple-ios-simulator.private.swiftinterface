@@ -1,0 +1,115 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ScanditBarcodeCapture
+import DeveloperToolsSupport
+import Foundation
+@_exported import ScanditBarcodeCapture
+import Swift
+import SwiftUI
+import UIKit
+extension ScanditBarcodeCapture.BarcodeCaptureLicenseInfo {
+  public var licensedSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+}
+extension ScanditBarcodeCapture.BarcodeCaptureSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.BarcodeCountSession {
+  public var recognizedBarcodes: [Swift.Int : ScanditBarcodeCapture.TrackedBarcode] {
+    get
+  }
+}
+extension ScanditBarcodeCapture.BarcodeCountSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.BarcodeFilterSettings {
+  public var excludedSymbolCounts: [ScanditBarcodeCapture.Symbology : Swift.Set<Swift.Int>] {
+    get
+    set
+  }
+  public var excludedSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+    set
+  }
+}
+extension ScanditBarcodeCapture.BarcodeFindSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.BarcodePickSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.BarcodeSelectionLicenseInfo {
+  public var licensedSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+}
+extension ScanditBarcodeCapture.BarcodeSelectionSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.BarcodeTrackingLicenseInfo {
+  public var licensedSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+}
+extension ScanditBarcodeCapture.BarcodeTrackingSession {
+  public var removedTrackedBarcodes: [Swift.Int] {
+    get
+  }
+  public var trackedBarcodes: [Swift.Int : ScanditBarcodeCapture.TrackedBarcode] {
+    get
+  }
+}
+extension ScanditBarcodeCapture.BarcodeTrackingSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.CompositeTypeDescription {
+  public var symbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+}
+extension ScanditBarcodeCapture.SparkScanLicenseInfo {
+  public var licensedSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+}
+extension ScanditBarcodeCapture.SparkScanSettings {
+  public var enabledSymbologies: Swift.Set<ScanditBarcodeCapture.Symbology> {
+    get
+  }
+  public func enableSymbologies(_ symbologies: Swift.Set<ScanditBarcodeCapture.Symbology>)
+}
+extension ScanditBarcodeCapture.Symbology : Swift.CaseIterable {
+  public typealias AllCases = [ScanditBarcodeCapture.Symbology]
+  public static var allCases: ScanditBarcodeCapture.Symbology.AllCases {
+    get
+  }
+}
+extension ScanditBarcodeCapture.SymbologySettings {
+  public var activeSymbolCounts: Swift.Set<Swift.Int> {
+    get
+    set
+  }
+}
+extension SwiftUI.View {
+  public func withSparkScan(_ viewController: UIKit.UIViewController) -> some SwiftUI.View
+  
+}

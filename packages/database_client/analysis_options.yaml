@@ -1,0 +1,10 @@
+analyzer:
+  errors:
+    # we use a custom line length
+    lines_longer_than_80_chars: ignore
+  exclude:
+    - "**/*.gen.dart"
+    - "**/*.g.dart"
+linter:
+  rules:
+    prefer_const_constructors: false
